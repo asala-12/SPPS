@@ -1,18 +1,19 @@
 public class calculateGrades {
-    double mark1, mark2;
+    double mark1, mark2, mark3;
 
-    public void assignMarks(double mark1, double mark2){
+    public void assignMarks(double mark1, double mark2, double mark3){
         this.mark1 = mark1;
-        this.mark2=mark2;
+        this.mark2 = mark2;
+        this.mark3 = mark3;
     }
     double average(){
-        return (mark1 + mark2)/2 ;
+        return (mark1 + mark2 + mark3)/2 ;
     }
 }
 class CircleOpereations{
     public static void main (String args[]){
         calculateGrades c = new calculateGrades();
-        c.assignMarks(94,95);
+        c.assignMarks(94,95,90);
         System.out.println("Average: " +c.average());
     }
 }
