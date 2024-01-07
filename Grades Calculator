@@ -8,7 +8,7 @@ public class calculateGrades {
         this.mark4 = mark4; 
     }
     double average(){
-        return (mark1 + mark2 + mark3 + mark4)/2 ;
+        return (mark1 + mark2 + mark3 + mark4)/4 ;
     }
 }
 class CircleOpereations{
